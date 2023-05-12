@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.promo-title {
+ font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.btn-primary {
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid #3c366b !important;
+    color: #3c366b !important;
+    background: none !important;
+}
+
+.btn-primary:hover {
+    background: #3c366b !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+#lifel,#life2,#life3 {
+    color: #3c366b;
+    padding: 40px 0;
+    background-color: #f2f2f2;
+}
+
+#lifel,#life3 {
+    color: #3c366b;
+    padding: 40px 0;
+    background-color: #f2f2f2;
+}
+
+#life2 {
+    padding: 40px 0;
+    color: #3c366b;
+}
+
+.title {
+    padding-left: 40%;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 3px solid #3c366b;
+    right: 0;
+    margin: 0 auto;
+}
+
+.title1::after {
+    left: 55%;
+}
+
+.title2::after {
+    left: 67%;
+}
+
+.title3::after {
+    left: 60%;
+
+}
+
+ul {
+    list-style-type: none;
+    font-weight: lighter;
+}
+
+ul li {
+    padding: 3px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 49px;
+}
+
+#image {
+    background-color: #000000;
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    color: #ffffff;
+}
+
+#title {
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 0px;
+}
+
+#img-caption {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#awards {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+#filmography,
+#awards {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+
+}
+
+#tribute-info,#movies,.poster,#row,#info {
+    display: flex;
+    flex-direction: row;
+}
+
+#tribute-info,#movies {
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px 40px 90px;
+}
+
+#tribute-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#tribute-info p {
+    width: 800px;
+    line-height: 1.8;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#movies-left,#movies-right,
+.award {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#movies-left,#movies-right {
+    justify-content: center;
+    width: 488px;
+    padding: 20px;
+    margin: 18px 0;
+}
+
+.poster {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 12px;
+    box-shadow: 5px 10px 14px rgba(81, 82, 82, 0.4);
+    border: 3px dotted grey;
+    width: 428px;
+}
+
+.poster img,
+.award img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 1px solid #cccccc;
+}
+
+.poster ul {
+    padding-left: 30px;
+}
+
+#row {
+    justify-content: space-around;
+    margin: 20px 60px;
+    padding-bottom: 40px;
+}
+
+.award {
+    width: 250px;
+    padding: 20px;
+    background-color: #94b8b8;
+    border-radius: 12px;
+    box-shadow: 5px 10px 14px rgba(81, 82, 82, 0.4);
+    margin: 38px 0;
+    border: 2px dotted grey;
+}
+
+.award p {
+    margin: 10px 0;
+}
+
+.award p:first-of-type {
+
+    margin-top: 30px;
+}
